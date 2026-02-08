@@ -20,6 +20,6 @@ print(my_tuple[1])# output:20
 #examples
 my_dict={'name':'Gabriel','age': 25}
 my_dict["age"]=26 #updating Value
-print('name')
+print('name') #output:Gabriel
 
 
