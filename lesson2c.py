@@ -18,9 +18,13 @@ print(Phonebook["Benson"])
 player={
     "name":"messi",
     "age": 40,
-    "teams":["PSG","Bercalona","Argentina"]
-
-}
+    "teams":["PSG","Bercalona","Argentina"],
+    "more":{"Children": 3, "residence":"us","phone":(712347514,724105626,712347512)}
+         
+    }
 #Print  bercalona the second team he played for
 print(player["teams"][1])
+#print messi second phone number
+print(player["more"]["phone"][1])
+
 
