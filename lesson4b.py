@@ -22,9 +22,18 @@ print('...............................')
 for number in range(101,150,4):
     print(number)
 
-if number %!=0:
-    print(
-        
-    )
+if number %2!=0:
+    print(number)
+
+#Create a program that prints the multiples of three starting from 201 to 150 
+for  number in range (201,150,-3):
+    print(number)
+
+
+#create a python program that prints the leap years in between 2000 and 2024
+for number in range (2000, 2024,4):
+    print(number)
+    
+
 
 
